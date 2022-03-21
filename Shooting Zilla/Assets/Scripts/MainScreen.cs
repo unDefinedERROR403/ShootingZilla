@@ -28,4 +28,8 @@ public class MainScreen : MonoBehaviour
     {
         SceneManager.LoadScene("Credits");
     }
+    public void back()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
 }
