@@ -1,50 +1,24 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
-  m_Name: Readme
-  m_EditorClassIdentifier: 
-  icon: {fileID: 2800000, guid: 7801804018a7dcf42abb827444e18660, type: 3}
-  title: Universal Render Pipeline Template
-  sections:
-  - heading: Universal Render Pipeline
-    text: 'The Universal Project Template configures Project settings for Projects where performance, wide platform support, and ease of customizing graphics are the primary considerations.'
-    linkText: 
-    url: 
-  - heading:
-    text: 'This Template uses the Universal Render Pipeline (URP) and Shader Graph.'
-    linkText: 
-    url: 
-  - heading:
-    text: 'URP is prebuilt Scriptable Render Pipeline that is quick and easy to customize, and lets you create optimized graphics across a wide range of platforms. URP also includes an optimized 2D renderer complete with 2D lights and pixel perfect rendering, and an integrated post-processing solution.'
-    linkText: 
-    url: 
-  - heading:
-    text: 'Shader Graph is a tool that allows you to create shaders using a visual node editor instead of writing code.'
-    linkText: 
-    url: 
-  - heading: 
-    text: 'This template contains a sample Scene that contains examples of how to configure lighting settings, Materials, Shaders, and post-processing effects in URP, several preconfigured Universal Render Pipeline Assets that let you quickly swap between graphics quality levels, and Presets that have been optimized for use with URP.'
-    linkText:
-    url:
-  - heading: 
-    text: 'This template contains a sample Scene that contains examples of how to configure lighting settings, Materials, Shaders, and post-processing effects in URP, several preconfigured Universal Render Pipeline Assets that let you quickly swap between graphics quality levels, and Presets that have been optimized for use with URP.'
-    linkText:
-    url:
-  - heading: 
-    text: 'To read more about URP and its built-in features, see the '
-    linkText: URP documentation.
-    url: https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@latest/index.html
-  - heading: 
-    text: 'For more information about Shader Graph, see the '
-    linkText: Shader Graph documentation
-    url: https://docs.unity3d.com/Packages/com.unity.shadergraph@latest
-  loadedLayout: 1
+Creating Main Game 
+
+1.Imported Assets in main screen a house for basic setup for game screen. Import Zombie in the screen
+
+2.Giving animation to zombies- Walking and killing effect (See unity documentation for better idea about animation) We have give zombie a script (Transform)by which they will do all action like shaking hands and walk.
+
+3.As the zombie approach the screen or main player which is collision (Attack)In screen it will show message {attack}, In short, a damage effect on our canvas like blood on screen. Created a game object and given a script.
+
+4.We have to given sound effect to zombies when they are in main screen and when they approach player or attack different sound will play.
+
+5. Giving player life like initially 100 as the zombie touch the main camera or player it can be reduced by 2 point.
+i.e., health =100;
+During Attack -> health -= 5; 
+In the same script give condition if the health value decreased to 0 in screen it will load a scene called game over. And in that game over there will be new button new game which will again load main game scene.
+i.e. if(health <=0)
+{
+Scenemanager.LoadScene(“Game Over”);
+}
+
+Remaining Tasks
+
+6.SpawnController – what this will do is when we start new game or click on new game zombies will come and attack the player from every direction like that random cylinder which Swaroop created in the main screen.
+
+7.Raycasting – Shooting our enemies – Using C# we can create this basically as we shoot the enemy our score will increase.
