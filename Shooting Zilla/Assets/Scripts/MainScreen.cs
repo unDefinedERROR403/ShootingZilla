@@ -18,7 +18,7 @@ public class MainScreen : MonoBehaviour
     }
     public void fight()
     {
-        SceneManager.LoadScene("UnityARKitScene");
+        SceneManager.LoadScene("Game");
     }
     public void GSettings()
     {

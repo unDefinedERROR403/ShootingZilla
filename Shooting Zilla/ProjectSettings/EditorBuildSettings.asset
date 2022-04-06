@@ -23,11 +23,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FocusCircle.unity
     guid: 4544c5dd902744e969efdd3b26bd7fef
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/UnityARKitPlugin/Examples/UnityARKitScene/UnityARKitScene.unity
-    guid: c159f2591a9b5c843b0a0442451f78f8
-  - enabled: 1
-    path: Assets/UnityARKitPlugin/Examples/UnityARKitScene/GameOver.unity
+    path: Assets/Scenes/GameOver.unity
     guid: 2145bd98a44d748b59e8d6e7ba5a39ea
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: ea636d91e8ec9164aa617bc9b388493d, type: 2}
