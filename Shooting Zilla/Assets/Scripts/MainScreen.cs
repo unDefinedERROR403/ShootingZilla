@@ -20,7 +20,7 @@ public class MainScreen : MonoBehaviour
     {
         SceneManager.LoadScene("Game");
     }
-    public void Settings()
+    public void GSettings()
     {
         SceneManager.LoadScene("Settings");
     }
@@ -30,6 +30,11 @@ public class MainScreen : MonoBehaviour
     }
     public void back()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene("NexScene");
     }
+    public void shop()
+    {
+        SceneManager.LoadScene("FocusCircle");
+    }
+    
 }
