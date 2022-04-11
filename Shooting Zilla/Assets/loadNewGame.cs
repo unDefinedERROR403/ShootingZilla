@@ -18,6 +18,6 @@ public class loadNewGame : MonoBehaviour
     // Load is called once per frame
     void loadGame()
     {
-        SceneManager.LoadScene("UnityARKitScene");
+        SceneManager.LoadScene("Game");
     }
 }

@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class GameControllerScript : MonoBehaviour
 {
-    public GameObject bloodyScreen;
+    public GameObject BloodScreen;
     public Text healthText;
     public int health;
 
@@ -29,17 +29,17 @@ public class GameControllerScript : MonoBehaviour
     }
      public void zombieAttack (bool zombieIsThere)
      {
-       bloodyScreen.gameObject.SetActive (true);
+       BloodScreen.gameObject.SetActive (true);
        StartCoroutine (wait2seconds());
        health -= 2;
-       string stringHealth =  (health).ToString ();
+       string stringHealth =  (health).ToString();
        healthText.text = "" +stringHealth;
         
      }
       IEnumerator wait2seconds()
     {
        yield return new WaitForSeconds (2f);
-       bloodyScreen.gameObject.SetActive (false);
+       BloodScreen.gameObject.SetActive (false);
     }
 
      
