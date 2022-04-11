@@ -80,4 +80,4 @@ MAC, University of Windsor
 
 
 ## Project Status
-This game is still under development phase. Updates are released more frequently and the stable version will be released soon.
+This game has its 1st release(found in Releases) and can be played on both android and iOS devices. This game is just a basic version and can be upgraded and updated in future. 
