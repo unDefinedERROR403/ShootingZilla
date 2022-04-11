@@ -15,18 +15,25 @@ VR gadgets and yet want to have a realistic experience of a shooting game in AR.
 ![image](https://user-images.githubusercontent.com/99232551/159185190-a30b709b-7a09-49ec-933a-adf6b00abd47.png)
 
 
-## Installation
+## Installation in android
 The programming language used in this game is C# and the scripts for the scenes are written in visual studio.
 The game uses unity assets and packages and thus, to run the code and use the assets or modify or 
 contribute to the game development, the user must have Unity hub and editor(version - 2020.3.27f1 or 2020.3.28f1)
 installed in their system. To test the game as it is being developed, the android device must be AR compatible(AR
 compatibility of a particular android devices can be checked on "https://developers.google.com/ar/devices"). To install
 the app on the android device the usb debugging option on the android device must be turned on.
+## Installation in iOS
+The programming language used in this game is C# and the scripts for the scenes are written in visual studio.
+The game uses unity assets and packages and thus, to run the code and use the assets or modify or 
+contribute to the game development, the user must have Unity hub and editor(version - 2020.3.27f1 or 2020.3.28f1)
+installed in their system. To test the game as it is being developed, the iOS device must be AR compatible(AR
+compatibility with minimun version of iOS 12 running on the device, iOS devices above iPhone 6S will be able to run the game on thier devices. To install
+the app on the iOS device connect your phone to your MAC and machine should have Xcode install in thier system. When you have a setup ready connect your device to your mac and in the xcode press on run on connected device. It will take time when doing it for first time because of new build.Always make sure to keep your device unlocked during the whole process.
 
 
 ## Usage
-Once the game is developed and ready to play, the android device should be AR compatible.
-Currently the game is developed and deployed on few devices, in future, the game can be downloded from the GooglePlay
+Once the game is developed and ready to play, the android/iOS device should be AR compatible.
+Currently the game is developed and deployed on few devices, in future, the game can be downloded from the GooglePlay/App Store
 store(the link to download this game will be updated as and when it is published to the GooglePlay store).
 
 
@@ -35,17 +42,19 @@ For any error issues or help with the code, you can reach to the developers thro
 
 
 ## Roadmap
-As a game is ready to play on android devices, future scope to this game can be done as updation:
-1. Making this game ios compatible
-2. Adding more skins and effects
-3. Making multiplayer version of this game
-4. Connecting to social media
-5. Can also be implemented in VR
+As a game is ready to play on android/iOS devices, future scope to this game can be done as updation:
+
+1. Adding more skins and effects
+2. Making multiplayer version of this game
+3. Connecting to social media
+4. Can also be implemented in VR
+5. Adding levels to the game
+6. Adding more visual and sound effects to make it more realistic
 
 
 ## Contributing
 For people who want to make changes or modify or update the game, we highly recommend them to go through the
-game documentation once brfore directly jumping to make any of the changes. Scripts, packages and assets are 
+game documentation once before directly jumping to make any of the changes. Scripts, packages and assets are 
 all invluded in the resource file. Also, it is recommended to follow the installation(stated above) before attempting
 to modify or update the game.
 
