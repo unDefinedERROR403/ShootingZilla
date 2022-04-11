@@ -34,6 +34,8 @@ the app on the iOS device connect your phone to your MAC and machine should have
 
 ## iOS Play View
 ![IMG_5978](https://user-images.githubusercontent.com/46971232/162797797-19ec8e13-4353-47be-82c6-8dfc37cff392.jpg)
+![IMG_5967](https://user-images.githubusercontent.com/46971232/162798043-82823da3-069f-4af1-8149-f6f9d50a67cc.jpg)
+
 
 
 ## Usage
