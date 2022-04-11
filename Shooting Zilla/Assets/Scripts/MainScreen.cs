@@ -24,6 +24,10 @@ public class MainScreen : MonoBehaviour
     {
         SceneManager.LoadScene("Settings");
     }
+    public void ProfileSettings()
+    {
+        SceneManager.LoadScene("ProfileScreen");
+    }
     public void Credits()
     {
         SceneManager.LoadScene("Credits");

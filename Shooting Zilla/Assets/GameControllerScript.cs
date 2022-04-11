@@ -32,7 +32,7 @@ public class GameControllerScript : MonoBehaviour
        BloodScreen.gameObject.SetActive (true);
        StartCoroutine (wait2seconds());
        health -= 2;
-       string stringHealth =  (health).ToString ();
+       string stringHealth =  (health).ToString();
        healthText.text = "" +stringHealth;
         
      }
