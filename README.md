@@ -33,10 +33,6 @@ compatibility with minimun version of iOS 12 running on the device, iOS devices 
 the app on the iOS device connect your phone to your MAC and machine should have Xcode install in thier system. When you have a setup ready connect your device to your mac and in the xcode press on run on connected device. It will take time when doing it for first time because of new build.Always make sure to keep your device unlocked during the whole process.
 
 ## iOS Play View
-![IMG_5978](https://user-images.githubusercontent.com/46971232/162797797-19ec8e13-4353-47be-82c6-8dfc37cff392.jpg)
-![IMG_5967](https://user-images.githubusercontent.com/46971232/162798043-82823da3-069f-4af1-8149-f6f9d50a67cc.jpg)
-![IMG_5968](https://user-images.githubusercontent.com/46971232/162798151-732197c7-2717-4b7a-b0f5-c6374af07425.PNG)
-![IMG_5981](https://user-images.githubusercontent.com/46971232/162798254-7521edf3-02cd-427d-8716-61e109597ded.PNG)
 ![IMG_5969](https://user-images.githubusercontent.com/46971232/162798376-9d232416-4a1f-4bf0-8a46-7942c669cb3e.PNG)
 
 
