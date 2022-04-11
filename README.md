@@ -15,6 +15,7 @@ VR gadgets and yet want to have a realistic experience of a shooting game in AR.
 ![image](https://user-images.githubusercontent.com/99232551/159185190-a30b709b-7a09-49ec-933a-adf6b00abd47.png)
 
 
+
 ## Installation in android
 The programming language used in this game is C# and the scripts for the scenes are written in visual studio.
 The game uses unity assets and packages and thus, to run the code and use the assets or modify or 
@@ -22,6 +23,7 @@ contribute to the game development, the user must have Unity hub and editor(vers
 installed in their system. To test the game as it is being developed, the android device must be AR compatible(AR
 compatibility of a particular android devices can be checked on "https://developers.google.com/ar/devices"). To install
 the app on the android device the usb debugging option on the android device must be turned on.
+
 ## Installation in iOS
 The programming language used in this game is C# and the scripts for the scenes are written in visual studio.
 The game uses unity assets and packages and thus, to run the code and use the assets or modify or 
@@ -29,6 +31,9 @@ contribute to the game development, the user must have Unity hub and editor(vers
 installed in their system. To test the game as it is being developed, the iOS device must be AR compatible(AR
 compatibility with minimun version of iOS 12 running on the device, iOS devices above iPhone 6S will be able to run the game on thier devices. To install
 the app on the iOS device connect your phone to your MAC and machine should have Xcode install in thier system. When you have a setup ready connect your device to your mac and in the xcode press on run on connected device. It will take time when doing it for first time because of new build.Always make sure to keep your device unlocked during the whole process.
+
+## iOS Play View
+![IMG_5978](https://user-images.githubusercontent.com/46971232/162797797-19ec8e13-4353-47be-82c6-8dfc37cff392.jpg)
 
 
 ## Usage
